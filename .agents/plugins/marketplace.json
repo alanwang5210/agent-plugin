@@ -1,0 +1,32 @@
+{
+  "name": "agent-plugin",
+  "interface": {
+    "displayName": "Agent Plugin"
+  },
+  "plugins": [
+    {
+      "name": "codex-token-monitor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-token-monitor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tencent-docs-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tencent-docs-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

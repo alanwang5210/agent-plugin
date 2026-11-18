@@ -1,0 +1,44 @@
+{
+  "interface": {
+    "brandColor": "#39C98A",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Start the Codex token monitor.",
+      "Show the token monitor status.",
+      "Stop the Codex token monitor."
+    ],
+    "developerName": "Wang Alan",
+    "displayName": "Codex Token Monitor",
+    "longDescription": "Starts and controls a local Windows companion that displays Codex-reported per-turn, session, cache, reasoning, and context-window token usage.",
+    "privacyPolicyURL": "https://github.com/alanwang5210/codex-token-monitor/blob/main/PRIVACY.md",
+    "shortDescription": "Local token usage on Windows",
+    "termsOfServiceURL": "https://github.com/alanwang5210/codex-token-monitor/blob/main/TERMS.md",
+    "websiteURL": "https://github.com/alanwang5210/codex-token-monitor",
+    "logo": "./assets/codex-token-monitor-v0.1.0-beta.3.png",
+    "composerIcon": "./assets/codex-token-monitor-v0.1.0-beta.3.png"
+  },
+  "requires_local_executor": true,
+  "name": "codex-token-monitor",
+  "version": "0.1.0-beta.4",
+  "description": "Local Windows companion for monitoring Codex-reported token usage",
+  "author": {
+    "name": "Wang Alan",
+    "email": "alan.wang5210@gmail.com",
+    "url": "https://github.com/alanwang5210"
+  },
+  "keywords": [
+    "codex",
+    "tokens",
+    "monitoring",
+    "windows"
+  ],
+  "homepage": "https://github.com/alanwang5210/codex-token-monitor",
+  "repository": "https://github.com/alanwang5210/codex-token-monitor",
+  "license": "MIT",
+  "skills": "./skills"
+}

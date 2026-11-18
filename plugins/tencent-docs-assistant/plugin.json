@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "alan.wang5210@gmail.com",
+    "name": "Wang Alan"
+  },
+  "description": "通过腾讯文档官方 MCP 搜索、读取、创建和编辑在线文档与表格，参考 WorkBuddy 的自然语言办公流程。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "检查腾讯文档连接状态，并列出当前可用能力。",
+          "在腾讯文档中查找指定主题的资料，阅读后附原文链接总结。",
+          "把这段会议记录整理成腾讯文档，包含结论、行动项、负责人和截止日期。"
+        ],
+        "developerName": "Wang Alan",
+        "displayName": "腾讯文档助手",
+        "longDescription": "个人定制的腾讯文档插件，直接连接腾讯文档官方 MCP 服务，参考 WorkBuddy 的文档工作流。通过腾讯官方登录页面授权后，可用自然语言查找和总结文档、整理会议纪要、创建在线文档与表格，以及修改智能文档和智能表格。实际可用操作取决于官方服务返回的工具、账号权限和套餐。此插件不是腾讯或 WorkBuddy 发布的官方插件，不提供 WorkBuddy 专有的资料库界面。",
+        "shortDescription": "搜索、阅读和编辑腾讯文档与表格",
+        "logo": "./assets/tencent-docs-v0.2.0.png",
+        "composerIcon": "./assets/tencent-docs-v0.2.0.png"
+      },
+      "onboardingSkill": "skills/tencent-docs-connect/SKILL.md"
+    }
+  },
+  "keywords": [
+    "腾讯文档",
+    "Tencent Docs",
+    "文档",
+    "表格",
+    "MCP",
+    "WorkBuddy"
+  ],
+  "name": "tencent-docs-assistant",
+  "version": "0.2.0"
+}

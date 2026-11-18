@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "tencent-docs": {
+      "type": "streamable-http",
+      "url": "https://docs.qq.com/openapi/mcp",
+      "headers": {},
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "defaultScopes": [
+              "docs:read",
+              "docs:write",
+              "docs:manage"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
